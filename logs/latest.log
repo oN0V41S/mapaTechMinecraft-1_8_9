@@ -1,0 +1,17 @@
+[23:00:04] [Server thread/INFO]: Starting minecraft server version 1.8.9
+[23:00:05] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Identificador inválido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_411]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_411]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_411]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_411]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_411]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_411]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:92) [ko$2.class:?]
+[23:00:21] [Server thread/INFO]: Loading properties
+[23:00:21] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
