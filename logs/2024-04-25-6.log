@@ -1,0 +1,86 @@
+[23:41:05] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Identificador inválido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_411]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_411]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_411]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_411]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_411]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_411]
+	at ko$2.run(SourceFile:81) [minecraft_server.1.8.9.jar:?]
+[23:41:05] [Server thread/INFO]: Starting minecraft server version 1.8.9
+[23:41:05] [Server thread/INFO]: Loading properties
+[23:41:05] [Server thread/INFO]: Default game type: SURVIVAL
+[23:41:05] [Server thread/INFO]: Generating keypair
+[23:41:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:41:08] [Server thread/INFO]: Using default channel type
+[23:41:13] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_411]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_411]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_411]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.8.9.jar:?]
+	at mb.g(SourceFile:124) ~[minecraft_server.1.8.9.jar:?]
+	at kn.z(SourceFile:99) [minecraft_server.1.8.9.jar:?]
+	at kn.<init>(SourceFile:25) [minecraft_server.1.8.9.jar:?]
+	at ko.i(SourceFile:172) [minecraft_server.1.8.9.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:421) [minecraft_server.1.8.9.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_411]
+[23:41:13] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_411]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_411]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_411]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.8.9.jar:?]
+	at mb.g(SourceFile:124) ~[minecraft_server.1.8.9.jar:?]
+	at kn.y(SourceFile:91) [minecraft_server.1.8.9.jar:?]
+	at kn.<init>(SourceFile:27) [minecraft_server.1.8.9.jar:?]
+	at ko.i(SourceFile:172) [minecraft_server.1.8.9.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:421) [minecraft_server.1.8.9.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_411]
+[23:41:13] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_411]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_411]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_411]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.8.9.jar:?]
+	at mb.g(SourceFile:124) ~[minecraft_server.1.8.9.jar:?]
+	at kn.A(SourceFile:107) [minecraft_server.1.8.9.jar:?]
+	at kn.<init>(SourceFile:29) [minecraft_server.1.8.9.jar:?]
+	at ko.i(SourceFile:172) [minecraft_server.1.8.9.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:421) [minecraft_server.1.8.9.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_411]
+[23:41:13] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_411]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_411]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_411]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.8.9.jar:?]
+	at mb.g(SourceFile:124) ~[minecraft_server.1.8.9.jar:?]
+	at kn.C(SourceFile:123) [minecraft_server.1.8.9.jar:?]
+	at kn.<init>(SourceFile:30) [minecraft_server.1.8.9.jar:?]
+	at ko.i(SourceFile:172) [minecraft_server.1.8.9.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:421) [minecraft_server.1.8.9.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_411]
+[23:41:16] [Server thread/INFO]: Preparing level "world"
+[23:41:24] [Server thread/INFO]: Preparing start region for level 0
+[23:41:26] [Server thread/INFO]: Preparing spawn area: 0%
+[23:41:27] [Server thread/INFO]: Preparing spawn area: 0%
+[23:41:28] [Server thread/INFO]: Preparing spawn area: 2%
+[23:41:30] [Server thread/INFO]: Preparing spawn area: 4%
+[23:41:31] [Server thread/INFO]: Preparing spawn area: 4%
+[23:41:32] [Server thread/INFO]: Preparing spawn area: 5%
+[23:41:33] [Server thread/INFO]: Preparing spawn area: 6%
+[23:41:34] [Server thread/INFO]: Preparing spawn area: 8%
+[23:41:35] [Server thread/INFO]: Preparing spawn area: 9%
+[23:41:36] [Server thread/INFO]: Preparing spawn area: 11%
+[23:41:37] [Server thread/INFO]: Preparing spawn area: 12%
+[23:41:38] [Server thread/INFO]: Preparing spawn area: 14%
+[23:41:39] [Server thread/INFO]: Preparing spawn area: 15%
+[23:41:40] [Server thread/INFO]: Preparing spawn area: 16%
+[23:41:41] [Server thread/INFO]: Done (27,969s)! For help, type "help" or "?"
+[23:41:41] [Server thread/INFO]: Stopping server

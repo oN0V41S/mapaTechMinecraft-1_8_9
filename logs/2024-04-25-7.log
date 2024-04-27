@@ -84,3 +84,121 @@ java.io.FileNotFoundException: whitelist.json (O sistema não pode encontrar o ar
 [23:41:40] [Server thread/INFO]: Preparing spawn area: 16%
 [23:41:41] [Server thread/INFO]: Done (27,969s)! For help, type "help" or "?"
 [23:41:41] [Server thread/INFO]: Stopping server
+[00:59:31] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Identificador inválido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_411]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_411]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_411]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_411]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_411]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_411]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_411]
+	at ko$2.run(SourceFile:81) [minecraft_server.1.8.9.jar:?]
+[00:59:31] [Server thread/INFO]: Starting minecraft server version 1.8.9
+[00:59:31] [Server thread/INFO]: Loading properties
+[00:59:31] [Server thread/INFO]: Default game type: SURVIVAL
+[00:59:31] [Server thread/INFO]: Generating keypair
+[00:59:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:59:33] [Server thread/INFO]: Using default channel type
+[00:59:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:59:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:59:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:59:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:59:38] [Server thread/INFO]: Preparing level "world"
+[00:59:39] [Server thread/INFO]: Preparing start region for level 0
+[00:59:40] [Server thread/INFO]: Preparing spawn area: 2%
+[00:59:41] [Server thread/INFO]: Preparing spawn area: 20%
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileKabel
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileKabel
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileKabel
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileKabel
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileKabel
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileKabel
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileKabel
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileMaster
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileKabel
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileKabel
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileKabel
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileKabel
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileKabel
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:42] [Server thread/WARN]: Skipping BlockEntity with id tileRequest
+[00:59:42] [Server thread/INFO]: Preparing spawn area: 42%
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.tank
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_drain
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.faucet
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.faucet
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.casting_table
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_controller
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_component
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.smeltery_drain
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.casting_table
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.partbuilder
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.craftingstation
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.toolforge
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.casting_basin
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.craftingstation
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.craftingstation
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.craftingstation
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id tconstruct.stenciltable
+[00:59:43] [Server thread/WARN]: Skipping BlockEntity with id CondenserTile
+[00:59:43] [Server thread/INFO]: Preparing spawn area: 46%
+[00:59:44] [Server thread/INFO]: Preparing spawn area: 60%
+[00:59:45] [Server thread/INFO]: Preparing spawn area: 90%
+[00:59:46] [Server thread/INFO]: Done (8,115s)! For help, type "help" or "?"
+[00:59:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8990ms behind, skipping 179 tick(s)
